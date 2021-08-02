@@ -128,20 +128,8 @@ zsh
 ###             VIA CALAMARES CONFIG                ###
 #######################################################
 
-#alci-dwm
 archerx-calamares
 archerx-calamares-config
-xterm
-
-#############
-sddm
-bash-completion
-dex
-libxinerama
-make
-xorg-xkill
-xterm
-xorg-xrdb
 
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
@@ -160,11 +148,7 @@ mkinitcpio-openswap
 networkmanager
 network-manager-applet
 
-###########	For Terminal application	
-#{terminal}---{Add your Fevrate}
-alacritty
-
-########### Drivers for graphical cards
+#### Drivers for graphical cards
 
 #driver for virtualbox - xf86-video-vmware is dependency
 #systemctl enable vboxservice
@@ -172,17 +156,18 @@ alacritty
 #to have fullscreen
 #virtualbox-guest-utils
 
-#xf86-video-intel
-#xf86-video-amdgpu
-#xf86-video-nouveau
+xf86-video-intel
+xf86-video-amdgpu
+xf86-video-nouveau
 
-#nvidia
-#nvidia-settings
-#nvidia-utils
+nvidia
+nvidia-settings
+nvidia-utils
 
-
-##### sddm display manager
+#####Desktop Env...
 sddm
+xfce4
+xfce4-goodies
 
 ##### want to have base-devel group
 base-devel
@@ -190,7 +175,15 @@ base-devel
 ##### want to have linux-headers
 linux-headers
 
-##### want to have a desktop
-xfce4
-xfce4-goodies
-neofetch
+#####Another Desktop
+alacritty
+firefox
+bash-completion
+dex
+libxinerama
+make
+xorg-xkill
+xorg-xrdb
+
+
+
